@@ -36,36 +36,43 @@
             android:id="@+id/linearLayoutUsernamePass"
             android:layout_width="match_parent"
             android:layout_height="wrap_content"
-            android:layout_marginTop="28dp"
-            android:layout_marginBottom="20dp"
+            android:layout_marginTop="20dp"
             android:orientation="vertical">
 
             <EditText
                 android:id="@+id/usernameET"
                 android:layout_width="match_parent"
                 android:layout_height="50dp"
+                android:layout_marginLeft="20dp"
+                android:layout_marginTop="14dp"
+                android:layout_marginRight="20dp"
                 android:layout_weight="1"
                 android:backgroundTint="@android:color/background_light"
                 android:hint="@string/username_ET"
                 android:inputType="textPersonName"
+                android:paddingBottom="20dp"
                 android:textColorHint="@color/colorWhite"
-                app:fontFamily="@font/nunito_bold" />
+                android:textSize="16sp" />
 
             <EditText
                 android:id="@+id/passwordET"
                 android:layout_width="match_parent"
                 android:layout_height="50dp"
+                android:layout_marginLeft="20dp"
+                android:layout_marginTop="14dp"
+                android:layout_marginRight="20dp"
                 android:layout_weight="1"
                 android:backgroundTint="@android:color/background_light"
                 android:hint="@string/password_ET"
                 android:inputType="textPassword"
+                android:paddingBottom="20dp"
                 android:textColorHint="@color/colorWhite"
-                app:fontFamily="@font/nunito_bold" />
+                android:textSize="16sp" />
 
         </LinearLayout>
 
         <LinearLayout
-            android:id="@+id/linearLayoutButtons"
+            android:id="@+id/LinearLayoutButtonRegis"
             android:layout_width="match_parent"
             android:layout_height="wrap_content"
             android:layout_weight="1"
@@ -75,39 +82,54 @@
                 android:id="@+id/loginBT"
                 android:layout_width="match_parent"
                 android:layout_height="wrap_content"
+                android:layout_marginLeft="20dp"
+                android:layout_marginTop="20dp"
+                android:layout_marginRight="20dp"
                 android:layout_weight="1"
-                android:text="@string/login_BT"
                 android:background="@drawable/custom_button"
+                android:minHeight="55dip"
+                android:text="@string/login_BT"
                 android:textColor="@color/colorWhite"
-                app:fontFamily="@font/nunito_bold" />
+                android:textSize="17sp" />
 
             <TextView
+                android:id="@+id/orTX"
                 android:layout_width="wrap_content"
                 android:layout_height="wrap_content"
                 android:layout_gravity="center"
-                android:layout_marginTop="15dp"
-                android:layout_marginBottom="15dp"
+                android:layout_marginTop="20dp"
                 android:layout_weight="1"
                 android:text="@string/or_TX"
                 android:textColor="@color/colorWhite"
-                app:fontFamily="@font/nunito_bold" />
+                android:textSize="17sp" />
 
             <Button
+                android:id="@+id/con_fbBT"
                 android:layout_width="match_parent"
                 android:layout_height="wrap_content"
+                android:layout_gravity="start"
+                android:layout_marginLeft="20dp"
+                android:layout_marginTop="20dp"
+                android:layout_marginRight="20dp"
                 android:layout_weight="1"
                 android:background="@drawable/custom_button"
+                android:drawableLeft="@drawable/ic_welcome_fb_login"
+                android:drawablePadding="20dp"
+                android:minHeight="55dip"
+                android:paddingLeft="50dp"
+                android:paddingRight="50dp"
                 android:text="@string/con_fb_BT"
+                android:textAlignment="textStart"
                 android:textColor="@color/colorWhite"
-                app:fontFamily="@font/nunito_bold" />
+                android:textSize="17sp" />
 
             <TextView
+                android:id="@+id/registerTX"
                 android:layout_width="wrap_content"
                 android:layout_height="wrap_content"
                 android:layout_gravity="center"
-                android:layout_marginTop="15dp"
-                android:text="@string/register_TX"
-                app:fontFamily="@font/nunito_bold" />
+                android:layout_marginTop="25dp"
+                android:text="@string/register_TX" />
         </LinearLayout>
 
     </LinearLayout>
