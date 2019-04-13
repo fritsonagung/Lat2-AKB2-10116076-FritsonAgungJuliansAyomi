@@ -68,7 +68,6 @@
                 android:paddingBottom="20dp"
                 android:textColorHint="@color/colorWhite"
                 android:textSize="16sp" />
-
         </LinearLayout>
 
         <LinearLayout

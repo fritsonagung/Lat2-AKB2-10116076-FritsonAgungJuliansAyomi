@@ -20,6 +20,7 @@ public class LoginActivity extends AppCompatActivity {
     1. Sabtu 13 April 2019 10.30, Membuat Layout Login Activity
     2. Sabtu 13 April 2019 13.30, Membuat Fungsi Perpindahan dari Login Activity Ke Register Activity
     3. Sabtu 13 April 2019 13.45, Membuat Layout Register Activity
+    2. Sabtu 13 April 2019 16.12, Membuat Fungsi Perpindahan dari Register Activity Ke Almost There Activity
      */
 
     @Override

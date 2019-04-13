@@ -2,8 +2,24 @@
     <string name="app_name">BloodShare</string>
     <string name="login_BT">LOGIN</string>
     <string name="username_ET">Username</string>
+    <string name="email_ET">Email</string>
+    <string name="telp_ET">Phone Number</string>
     <string name="password_ET">Password</string>
+    <string name="agree_ET">Agree with Terms and Conditions</string>
+    <string name="addres_ET">Home Address</string>
+    <string name="def_loc_ET">Default Location</string>
+    <string name="re_password_ET">Retype Password</string>
     <string name="con_fb_BT">CONNECT WITH FACEBOOK</string>
     <string name="or_TX">OR</string>
     <string name="register_TX"><font color='#b3e0f4'>"doesn't have account ?"</font> <font color='#ffffff'><b>Register</b></font></string>
+    <string name="register_TX2"><font color='#ffffff'>Register</font></string>
+    <string-array name="blood_type">
+        <item>Blood Type</item>
+    </string-array>
+    <string-array name="reshus">
+        <item>Reshus</item>
+    </string-array>
+    <string-array name="job">
+        <item>Job</item>
+    </string-array>
 </resources>
