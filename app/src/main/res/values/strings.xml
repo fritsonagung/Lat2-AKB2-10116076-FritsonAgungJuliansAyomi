@@ -1,0 +1,9 @@
+<resources>
+    <string name="app_name">BloodShare</string>
+    <string name="login_BT">LOGIN</string>
+    <string name="username_ET">Username</string>
+    <string name="password_ET">Password</string>
+    <string name="con_fb_BT">CONNECT WITH FACEBOOK</string>
+    <string name="or_TX">OR</string>
+    <string name="register_TX"><font color='#b3e0f4'>"doesn't have account ?"</font> <font color='#ffffff'><b>Register</b></font></string>
+</resources>
