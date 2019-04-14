@@ -8,5 +8,6 @@
     <color name="colorGray">#939498</color>
     <color name="separator">#D1D2D4</color>
     <color name="text">#000</color>
-    <color name="text2">#58585A</color>
+    <color name="text2">#6f6f71</color>
+    <color name="text3">#CACBCD</color>
 </resources>

@@ -22,7 +22,7 @@
             android:text="@string/almost_there_TX"
             android:textAlignment="center"
             android:textColor="@color/colorWhite"
-            android:textSize="40sp" />
+            android:textSize="35sp" />
 
         <TextView
             android:id="@+id/thanksTX"
