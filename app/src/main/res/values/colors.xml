@@ -6,5 +6,7 @@
     <color name="colorBacksground">#40B4E7</color>
     <color name="colorWhite">#ffffff</color>
     <color name="colorGray">#939498</color>
-
+    <color name="separator">#D1D2D4</color>
+    <color name="text">#000</color>
+    <color name="text2">#58585A</color>
 </resources>

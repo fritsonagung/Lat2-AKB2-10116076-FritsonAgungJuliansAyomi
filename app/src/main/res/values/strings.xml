@@ -11,9 +11,11 @@
     <string name="re_password_ET">Retype Password</string>
     <string name="con_fb_BT">CONNECT WITH FACEBOOK</string>
     <string name="or_TX">OR</string>
+    <string name="nama_TX">Fritson Agung Julians Ayomi</string>
+    <string name="blood_type_TX">Blood type: B</string>
     <string name="send_BT">SEND</string>
     <string name="veri_your_account_TX">Verify your Account</string>
-    <string name="enter_verify__ET"><font color='#b3e0f4'>enter verification code here</font></string>
+    <string name="enter_verify__ET"><font color='#b3e0f4'>enter verification code here...</font></string>
     <string name="register_BT">REGISTER</string>
     <string name="verify_BT">VERIFY</string>
     <string name="almost_there_TX">Almost There</string>
@@ -22,6 +24,20 @@
     <string name="register_TX"><font color='#b3e0f4'>"doesn't have account ?"</font> <font color='#ffffff'><b>Register</b></font></string>
     <string name="doesnt_get_code_TX"><font color='#b3e0f4'>"doesn't get the code ?"</font> <font color='#ffffff'><b>Resend</b></font></string>
     <string name="register_TX2"><font color='#ffffff'>Register</font></string>
+    <string name="blood_give__total_TX">75</string>
+    <string name="blood_received_total_TX">100</string>
+    <string name="thanks_total_TX">330</string>
+    <string name="blood_give_TX">blood give</string>
+    <string name="blood_received_TX">blood received</string>
+    <string name="thankTX">thanks</string>
+    <string name="search_donor_TX">Search Donor</string>
+    <string name="search_donor_near_TX">Search donor near you</string>
+    <string name="blood_need_TX">Blood Needed</string>
+    <string name="blood_need_total_TX">4 Users need blood</string>
+    <string name="message_TX">Message</string>
+    <string name="new_message_TX">5 New Message</string>
+    <string name="donor_history_TX">Donor History</string>
+    <string name="total_donor_history_TX">5 Gives, 2 Received</string>
     <string-array name="blood_type">
         <item>Blood Type</item>
         <item>O</item>
