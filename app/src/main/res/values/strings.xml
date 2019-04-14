@@ -11,15 +11,33 @@
     <string name="re_password_ET">Retype Password</string>
     <string name="con_fb_BT">CONNECT WITH FACEBOOK</string>
     <string name="or_TX">OR</string>
+    <string name="send_BT">SEND</string>
+    <string name="veri_your_account_TX">Verify your Account</string>
+    <string name="enter_verify__ET"><font color='#b3e0f4'>enter verification code here</font></string>
+    <string name="register_BT">REGISTER</string>
+    <string name="verify_BT">VERIFY</string>
+    <string name="almost_there_TX">Almost There</string>
+    <string name="email_veri_message_TX"><font color='#b3e0f4'>We have send verification code to your email </font></string>
+    <string name="thanks_TX"><font color='#b3e0f4'>Thank you for registering with us. One more \nstep, you need to check on your email \nto active your account</font></string>
     <string name="register_TX"><font color='#b3e0f4'>"doesn't have account ?"</font> <font color='#ffffff'><b>Register</b></font></string>
+    <string name="doesnt_get_code_TX"><font color='#b3e0f4'>"doesn't get the code ?"</font> <font color='#ffffff'><b>Resend</b></font></string>
     <string name="register_TX2"><font color='#ffffff'>Register</font></string>
     <string-array name="blood_type">
         <item>Blood Type</item>
+        <item>O</item>
+        <item>A</item>
+        <item>B</item>
+        <item>AB</item>
     </string-array>
     <string-array name="reshus">
         <item>Reshus</item>
+        <item>Plus</item>
+        <item>Minus</item>
     </string-array>
     <string-array name="job">
         <item>Job</item>
+        <item>Teacher</item>
+        <item>Doctor</item>
+        <item>Programmer</item>
     </string-array>
 </resources>

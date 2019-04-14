@@ -22,27 +22,35 @@ public class RegisterActivity extends AppCompatActivity {
         super.onCreate(savedInstanceState);
         setContentView(R.layout.activity_register);
 
-        Spinner dropdown1 = findViewById(R.id.spinner_blood_type);
+        Spinner spinner1 = findViewById(R.id.spinner_blood_type);
+        ArrayAdapter adapter1 = ArrayAdapter.createFromResource(
+                this,
+                R.array.blood_type,
+                R.layout.custom_spinner_layout
+        );
 
-        ArrayAdapter<String> adapter1 = new ArrayAdapter<String>(RegisterActivity.this,
-                android.R.layout.simple_list_item_1, getResources().getStringArray(R.array.blood_type));
-        adapter1.setDropDownViewResource(android.R.layout.simple_spinner_dropdown_item);
-        dropdown1.setAdapter(adapter1);
+        adapter1.setDropDownViewResource(R.layout.support_simple_spinner_dropdown_item);
+        spinner1.setAdapter(adapter1);
 
+        Spinner spinner2 = findViewById(R.id.spinner_reshus);
+        ArrayAdapter adapter2 = ArrayAdapter.createFromResource(
+                this,
+                R.array.reshus,
+                R.layout.custom_spinner_layout
+        );
 
-        Spinner dropdown2 = findViewById(R.id.spinner_reshus);
+        adapter2.setDropDownViewResource(R.layout.support_simple_spinner_dropdown_item);
+        spinner2.setAdapter(adapter2);
 
-        ArrayAdapter<String> adapter2 = new ArrayAdapter<String>(RegisterActivity.this,
-                android.R.layout.simple_list_item_1, getResources().getStringArray(R.array.reshus));
-        adapter2.setDropDownViewResource(android.R.layout.simple_spinner_dropdown_item);
-        dropdown2.setAdapter(adapter2);
+        Spinner spinner3 = findViewById(R.id.spinner_job);
+        ArrayAdapter adapter3 = ArrayAdapter.createFromResource(
+                this,
+                R.array.job,
+                R.layout.custom_spinner_layout
+        );
 
-        Spinner dropdown3 = findViewById(R.id.spinner_job);
-
-        ArrayAdapter<String> adapter3 = new ArrayAdapter<String>(RegisterActivity.this,
-                android.R.layout.simple_list_item_1, getResources().getStringArray(R.array.job));
-        adapter3.setDropDownViewResource(android.R.layout.simple_spinner_dropdown_item);
-        dropdown3.setAdapter(adapter3);
+        adapter3.setDropDownViewResource(R.layout.support_simple_spinner_dropdown_item);
+        spinner3.setAdapter(adapter3);
 
         Button register = findViewById(R.id.registerBT);
         register.setOnClickListener(new View.OnClickListener() {

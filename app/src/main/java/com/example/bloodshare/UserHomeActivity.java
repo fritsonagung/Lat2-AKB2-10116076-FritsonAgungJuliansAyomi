@@ -9,7 +9,7 @@ public class UserHomeActivity extends AppCompatActivity {
     Nama         : Fritson Agung Julians Ayomi
     NIM          : 10116076
     Kelas        : AKB-2 / IF-2
-    Tanggal Buat : 13 April 2019
+    Tanggal Buat : 14 April 2019
  */
 
     @Override
