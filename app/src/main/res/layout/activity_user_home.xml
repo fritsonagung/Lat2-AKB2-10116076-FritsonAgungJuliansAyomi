@@ -43,7 +43,7 @@
         </RelativeLayout>
 
         <View
-            android:id="@+id/separator_user"
+            android:id="@+id/separator_profil"
             android:layout_width="match_parent"
             android:layout_height="4dp"
             android:layout_below="@id/header_user"
@@ -53,11 +53,12 @@
             android:id="@+id/photo_profile"
             android:layout_width="100dp"
             android:layout_height="100dp"
-            android:layout_below="@id/separator_user"
+            android:layout_below="@id/separator_profil"
             android:layout_centerInParent="true"
             android:layout_centerHorizontal="true"
             android:layout_marginTop="-56dp"
-            android:src="@drawable/profile" />
+            android:src="@drawable/profile"
+            tools:ignore="UnknownId" />
 
         <TextView
             android:id="@+id/nama_user"
@@ -81,7 +82,7 @@
             android:textSize="18sp" />
 
         <View
-            android:id="@+id/separator_top"
+            android:id="@+id/separator_atas"
             android:layout_width="match_parent"
             android:layout_height="1dp"
             android:layout_below="@id/blood_type"
@@ -89,10 +90,10 @@
             android:background="@color/separator" />
 
         <LinearLayout
-            android:id="@+id/spec"
+            android:id="@+id/total_act"
             android:layout_width="match_parent"
             android:layout_height="wrap_content"
-            android:layout_below="@id/separator_top"
+            android:layout_below="@id/separator_atas"
             android:layout_marginLeft="26dp"
             android:layout_marginRight="26dp"
             android:baselineAligned="false"
@@ -194,7 +195,7 @@
             android:id="@+id/separator_bottom"
             android:layout_width="match_parent"
             android:layout_height="1dp"
-            android:layout_below="@id/spec"
+            android:layout_below="@id/total_act"
             android:layout_marginTop="8dp"
             android:background="@color/separator" />
 
@@ -219,7 +220,8 @@
                     android:id="@+id/search_icon"
                     android:layout_width="wrap_content"
                     android:layout_height="wrap_content"
-                    android:src="@drawable/ic_search_donor" />
+                    android:src="@drawable/ic_search_donor"
+                    tools:ignore="ContentDescription" />
 
                 <TextView
                     android:id="@+id/search_donor"
@@ -252,7 +254,8 @@
                     android:id="@+id/blood_need_icon"
                     android:layout_width="wrap_content"
                     android:layout_height="wrap_content"
-                    android:src="@drawable/ic_blood_needed" />
+                    android:src="@drawable/ic_blood_needed"
+                    tools:ignore="ContentDescription" />
 
                 <TextView
                     android:id="@+id/blood_needed"
@@ -297,7 +300,8 @@
                     android:id="@+id/message_icon"
                     android:layout_width="wrap_content"
                     android:layout_height="wrap_content"
-                    android:src="@drawable/ic_message" />
+                    android:src="@drawable/ic_message"
+                    tools:ignore="ContentDescription" />
 
                 <TextView
                     android:id="@+id/messageTX"
@@ -330,7 +334,8 @@
                     android:id="@+id/donor_history_icon"
                     android:layout_width="wrap_content"
                     android:layout_height="wrap_content"
-                    android:src="@drawable/ic_donor_history" />
+                    android:src="@drawable/ic_donor_history"
+                    tools:ignore="ContentDescription" />
 
                 <TextView
                     android:id="@+id/donor_historyTX"
