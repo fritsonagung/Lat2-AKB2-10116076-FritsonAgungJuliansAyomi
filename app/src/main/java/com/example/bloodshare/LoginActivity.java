@@ -26,7 +26,7 @@ public class LoginActivity extends AppCompatActivity {
     7. Minggu 14 April 2019 07.00, Membuat Layout Custom Spinner
     8. Minggu 14 April 2019 07,45, Mebuat Layout Verify Account Activity
     9  Minggu 14 April 2019 08.03, Membuat Fungsi Perpindahan dari Verify Account Activity Ke User Home Activity
-    10. Minggu 14 April 2019 10,22, Membuat Layout User Home Activity
+    10.Minggu 14 April 2019 10,22, Membuat Layout User Home Activity
      */
 
     @Override
